@@ -1,0 +1,17 @@
+Git 版本初始化
+git clone 从远程Git版本库拉取
+
+Git 上传
+
+1 git init
+2 在github上创建仓库
+3 git remote 上传到仓库
+
+Git 常用命令
+检出仓库 $ git clone git://github.com/xiaopizi19/client.git
+查看远程仓库 $ git remote -v
+添加远程仓库 $ git remote add [name][url]
+删除远程仓库 $ git remote rm [name]
+拉取远程仓库 $ git pull[remoteName][localBranchName]
+推送远程仓库 $ git push[remoteName][localBranchName]
+
